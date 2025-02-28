@@ -14,3 +14,4 @@ jobs:
         ssh_private_key: ${{ secrets.REED_PASSWORD }} #引用之前创建好的secret
         local_path: './*'  # 对应我们项目build的文件夹路径
         remote_path: '/'
+        sftp_only: true
